@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyrille GAVOEDO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Cyrille Mahougnon</div>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ACCUEIL / À PROPOS -->
+  <section id="accueil" class="about-section">
+    <div class="about-container">
+      <img src="../src/cyrille_profil.jpg" alt="Photo de profil" class="profile-photo" />
+      <div class="about-text">
+        <h2>À propos de moi</h2>
+        <p>Développeur web passionné, je crée des sites modernes, efficaces et accessibles. Découvrez mes projets ci-dessous.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projets" class="projects-section">
+    <h2>Mes Projets</h2>
+    <div class="gallery">
+      <a href="../app_meteo/index.html" target="_blank"><img src="../src/app_meteo.jfif" alt="Projet 1" /></a>
+      <a href="../todo_list/" target="_blank"><img src="../src/tod.png" alt="Projet 2" /></a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <h2>Contactez-moi</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Votre nom" required />
+      <input type="email" name="email" placeholder="Votre email" required />
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+      <p id="formStatus"></p>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Cyrille Mahougnon. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
